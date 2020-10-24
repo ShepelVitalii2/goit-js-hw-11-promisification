@@ -52,7 +52,7 @@
 //     const canProcess = Math.random() > 0.3;
 //     setTimeout(() => {
 //       if (canProcess) {
-//         resolve({ transaction, delay } );
+//         resolve(({ id:transaction.id, delay }));
 //       } else {
 //         reject(transaction.id);
 //       };
